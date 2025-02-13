@@ -1,35 +1,27 @@
 import React from "react";
 import "../Style/sidebar.css";
-import Circle from "./Circle";
+
 import LoginSVG from "./LoginSVG";
+import ShowColor from "./ShowColor";
+
 function Sidebar() {
-  const colorList = ["#B9CEFB", "#CAFDE0", "#DFAEFF", "#FFB8EA", "#FFEDB4"];
+
+
   return (
     <>
       <div className="sidebar">
         <div className="title">EchoNotes</div>
-        <div className="click">
-          <button className="Btn">
-            <div className="sign">+</div>
-            <div className="text">Create</div>
-          </button>
-          <div className="colors">
-            {colorList.map((e) => {
-              console.log(e);
-              return <Circle color={e} />;
-            })}
-          </div>
-        </div>
+        <ShowColor />
         <div className="bottom">
           <LoginSVG />
 
           <button className="login">
-            <span class="circle1"></span>
-            <span class="circle2"></span>
-            <span class="circle3"></span>
-            <span class="circle4"></span>
-            <span class="circle5"></span>
-            <span class="text">Login</span>
+            <span className="circle1"></span>
+            <span className="circle2"></span>
+            <span className="circle3"></span>
+            <span className="circle4"></span>
+            <span className="circle5"></span>
+            <span className="text">Login</span>
           </button>
         </div>
       </div>

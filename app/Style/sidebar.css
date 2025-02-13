@@ -26,10 +26,11 @@
 .sidebar .click {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   grid-area: click;
   gap: 1rem;
+  height: clamp(11rem, 12rem, 13rem);
 }
 
 .sidebar .Btn {

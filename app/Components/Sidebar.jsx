@@ -3,15 +3,15 @@ import "../Style/sidebar.css";
 
 import LoginSVG from "./LoginSVG";
 import ShowColor from "./ShowColor";
+import ColorPallet from "./ColorPallet";
 
 function Sidebar() {
-
-
   return (
     <>
       <div className="sidebar">
         <div className="title">EchoNotes</div>
-        <ShowColor />
+        {/* <ShowColor /> */}
+        <ColorPallet />
         <div className="bottom">
           <LoginSVG />
 

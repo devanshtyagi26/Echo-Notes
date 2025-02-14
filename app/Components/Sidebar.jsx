@@ -1,8 +1,6 @@
 import React from "react";
 import "../Style/sidebar.css";
-
 import LoginSVG from "./LoginSVG";
-import ShowColor from "./ShowColor";
 import ColorPallet from "./ColorPallet";
 
 function Sidebar() {

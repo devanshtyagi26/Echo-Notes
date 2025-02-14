@@ -22,8 +22,11 @@ main .contentBlock {
   height: 100vh;
   width: 100%;
 }
+main .contentBlock .navbar {
+  display: flex;
+}
 
-main .contentBlock .title {
+main .contentBlock .navbar .title {
   color: #000;
   font-family: Preahvihear;
   font-size: 35px;

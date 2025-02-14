@@ -2,6 +2,7 @@ import React from "react";
 import "../Style/sidebar.css";
 import LoginSVG from "./LoginSVG";
 import ColorPallet from "./ColorPallet";
+import Button from "./ChooseColor";
 
 function Sidebar() {
   return (
@@ -9,7 +10,8 @@ function Sidebar() {
       <div className="sidebar">
         <div className="title">EchoNotes</div>
         {/* <ShowColor /> */}
-        <ColorPallet />
+        {/* <ColorPallet /> */}
+        <Button />
         <div className="bottom">
           <LoginSVG />
 

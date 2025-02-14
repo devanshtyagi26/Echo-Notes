@@ -1,10 +1,12 @@
 import React from "react";
+import Switch from "./DarkMode";
 
 function Navbar() {
   return (
-    <>
-      <div className="title">MyNotes</div>
-    </>
+    <div className="navbar">
+      <div className="title">MY NOTES</div>
+      <Switch />
+    </div>
   );
 }
 

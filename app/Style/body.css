@@ -24,6 +24,15 @@ main .contentBlock {
 }
 main .contentBlock .navbar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .contentBlock .navbar .navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 main .contentBlock .navbar .title {

@@ -1,0 +1,23 @@
+.userNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.userNav #userName {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+
+.userNav #userImage {
+  background-color: #d9d9d9;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+}

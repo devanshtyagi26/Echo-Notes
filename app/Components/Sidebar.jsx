@@ -10,8 +10,8 @@ function Sidebar() {
       <div className="sidebar">
         <div className="title">EchoNotes</div>
         {/* <ShowColor /> */}
-        {/* <ColorPallet /> */}
-        <Button />
+        <ColorPallet />
+        {/* <Button /> */}
         <div className="bottom">
           <LoginSVG />
 
